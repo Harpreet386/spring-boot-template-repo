@@ -8,11 +8,8 @@ metadata:
     - spring-boot
     - java
     - maven
-    - circleci
-    - renovate
-    - sonarqube
 spec:
-  owner: piomin
+  owner: test
   system: microservices
   type: service
 
@@ -31,7 +28,7 @@ spec:
         orgName:
           title: Organization name
           type: string
-          default: piomin
+          default: test
         appName:
           title: App name
           type: string
@@ -47,11 +44,11 @@ spec:
         groupId:
           title: Maven Group ID
           type: string
-          default: pl.piomin.services
+          default: com.example.services
         javaPackage:
           title: Java package directory
           type: string
-          default: pl/piomin/services
+          default: com/example/services
         apiPath:
           title: REST API path
           type: string
