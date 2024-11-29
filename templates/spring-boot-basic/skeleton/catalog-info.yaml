@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ${{ values.appName }}
+  title: ${{ values.appName }}
+  annotations:
+    github.com/project-slug: ${{ values.orgName }}/${{ values.appName }}
+  tags:
+    - spring-boot
+    - java
+    - maven
+spec:
+  type: service
+  owner: test123@gmail.com
+  lifecycle: experimental
