@@ -1,15 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ${{ values.appName }}
-  title: ${{ values.appName }}
+  name: spring-boot-api
+  title: spring-boot-api
   annotations:
-    github.com/project-slug: ${{ values.orgName }}/${{ values.appName }}
+    github.com/project-slug: Harpreet386/spring-boot-api
   tags:
     - spring-boot
     - java
     - maven
 spec:
   type: service
-  owner: test123@gmail.com
+  owner: Harpreet386
   lifecycle: experimental
