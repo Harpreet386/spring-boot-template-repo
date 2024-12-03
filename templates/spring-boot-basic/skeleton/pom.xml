@@ -16,7 +16,7 @@
         <sonar.projectKey>${{ values.orgName }}_${{ values.appName }}</sonar.projectKey>
         <sonar.organization>${{ values.orgName }}</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <java.version>21</java.version>
+        <java.version>17</java.version>
     </properties>
 
     <dependencies>
