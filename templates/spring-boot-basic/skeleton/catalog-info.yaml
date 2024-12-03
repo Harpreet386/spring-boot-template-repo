@@ -16,5 +16,5 @@ metadata:
     - sonarqube
 spec:
   type: service
-  owner: test123@gmail.com
+  owner: piotr.minkowski@gmail.com
   lifecycle: experimental
