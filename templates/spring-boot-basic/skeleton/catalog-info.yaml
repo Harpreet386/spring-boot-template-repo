@@ -11,10 +11,7 @@ metadata:
     - spring-boot
     - java
     - maven
-    - circleci
-    - renovate
-    - sonarqube
 spec:
   type: service
-  owner: piotr.minkowski@gmail.com
+  owner: test@gmail.com
   lifecycle: experimental
